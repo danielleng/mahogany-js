@@ -1,0 +1,201 @@
+[
+  {
+    "id": 1,
+    "store_name": "sg.luxoticca",
+    "unit_number": "#B1-23",
+    "status": "Live",
+    "trade_categories": ["Fashion"],
+    "floor_categories": ["L1"],
+    "shopping_guide_categories": ["Kids","Bag & Shoes","Cafes"],
+    "dining_guide_categories": ["Casual Dining","Breakfast"],
+    "tenant_group": "sg.luxoticca",
+    "last_update": {
+      "workflow_transition": "Launch",
+      "actor_group": "System",
+      "actor_store_name": "",
+      "actor_role": "",
+      "actor_name": "",
+      "datetime": "28 Feb 2019, 12:00 AM"
+    }
+  }, {
+    "id": 2,
+    "store_name": "Akemiuchi",
+    "unit_number": "#02-41A",
+    "status": "ReviewRequired",
+    "trade_categories": ["Home", "Decorations"],
+    "floor_categories": ["L3"],
+    "shopping_guide_categories": ["Lifestyle"],
+    "dining_guide_categories": ["Casual Dining"],
+    "tenant_group": "Akemi",
+    "last_update": {
+      "workflow_transition": "Edit",
+      "actor_group": "Tenant",
+      "actor_store_name": "Akemi",
+      "actor_role": "Marcomm",
+      "actor_name": "Holland Teh",
+      "datetime": "28 Feb 2019, 12:00 AM"
+    }
+  }, {
+    "id": 3,
+    "store_name": "Starbucks",
+    "unit_number": "#01-02",
+    "status": "PendingEdit",
+    "trade_categories": ["Food and Beverages"],
+    "floor_categories": ["L1"],
+    "shopping_guide_categories": ["Sports"],
+    "dining_guide_categories": ["Casual Dining"],
+    "tenant_group": "Test Long Tenant Name Starbucks Pte Ltd",
+    "last_update": {
+      "workflow_transition": "Request for Edit",
+      "actor_group": "SuperMall Pte Ltd",
+      "actor_store_name": "",
+      "actor_role": "Marcomm",
+      "actor_name": "Angela Chye",
+      "datetime": "28 Feb 2019, 12:00 AM"
+    }
+  }, {
+    "id": 4,
+    "store_name": "Challenger",
+    "unit_number": "02-111",
+    "status": "Scheduled",
+    "trade_categories": ["Electronics"],
+    "floor_categories": ["L1"],
+    "shopping_guide_categories": ["Women"],
+    "dining_guide_categories": ["Casual Dining"],
+    "tenant_group": "Challenger Group",
+    "last_update": {
+      "workflow_transition": "Create",
+      "actor_group": "VivoCity",
+      "actor_store_name": "",
+      "actor_role": "Marcomm",
+      "actor_name": "Yao Jin Wei",
+      "datetime": "28 Feb 2019, 12:00 AM"
+    }
+  }, {
+    "id": 5,
+    "store_name": "Sony",
+    "unit_number": "02-52",
+    "status": "Inactive",
+    "trade_categories": ["Electronics"],
+    "floor_categories": ["L1", "L2"],
+    "shopping_guide_categories": [],
+    "dining_guide_categories": [],
+    "tenant_group": "Sony Global Ltd",
+    "last_update": {
+      "workflow_transition": "End",
+      "actor_group": "System",
+      "actor_store_name": "",
+      "actor_role": "",
+      "actor_name": "",
+      "datetime": "28 Feb 2019, 12:00 AM"
+    }
+  }, {
+    "id": 6,
+    "store_name": "Akemiuchi",
+    "unit_number": "#02-22A",
+    "status": "Live",
+    "trade_categories": ["Home"],
+    "floor_categories": ["L2", "B1"],
+    "shopping_guide_categories": [],
+    "dining_guide_categories": ["Business Lunch"],
+    "tenant_group": "Akemi",
+    "last_update": {
+      "workflow_transition": "Reject",
+      "actor_group": "VivoCity",
+      "actor_store_name": "",
+      "actor_role": "Super Administrator",
+      "actor_name": "Angela Chye",
+      "datetime": "28 Feb 2019, 12:00 AM"
+    }
+  }, {
+    "id": 7,
+    "store_name": "sg.luxoticca",
+    "unit_number": "#02-23",
+    "status": "Live",
+    "trade_categories": ["Fashion", "Jewellery"],
+    "floor_categories": ["L1", "B1"],
+    "shopping_guide_categories": [],
+    "dining_guide_categories": [],
+    "tenant_group": "sg.luxoticca",
+    "last_update": {
+      "workflow_transition": "Launch",
+      "actor_group": "System",
+      "actor_store_name": "",
+      "actor_role": "",
+      "actor_name": "",
+      "datetime": "28 Feb 2019, 12:00 AM"
+    }
+  }, {
+    "id": 8,
+    "store_name": "Challenger",
+    "unit_number": "02-111",
+    "status": "Live",
+    "trade_categories": ["Electronics"],
+    "floor_categories": ["L3", "B1"],
+    "shopping_guide_categories": ["Lifestyle"],
+    "dining_guide_categories": [],
+    "tenant_group": "Challenger Group",
+    "last_update": {
+      "workflow_transition": "Launch",
+      "actor_group": "System",
+      "actor_store_name": "",
+      "actor_role": "",
+      "actor_name": "",
+      "datetime": "28 Feb 2019, 12:00 AM"
+    }
+  }, {
+    "id": 9,
+    "store_name": "Starbucks",
+    "unit_number": "#01-02",
+    "status": "Inactive",
+    "trade_categories": ["Food and Beverages"],
+    "floor_categories": ["L1", "B1"],
+    "shopping_guide_categories": [],
+    "dining_guide_categories": ["Alfresco Dining"],
+    "tenant_group": "Starbucks Pte Ltd",
+    "last_update": {
+      "workflow_transition": "End",
+      "actor_group": "System",
+      "actor_store_name": "",
+      "actor_role": "",
+      "actor_name": "",
+      "datetime": "28 Feb 2019, 12:00 AM"
+    }
+  }, {
+    "id": 10,
+    "store_name": "Sony",
+    "unit_number": "02-52",
+    "status": "Scheduled",
+    "trade_categories": ["Electronics"],
+    "floor_categories": ["B1"],
+    "shopping_guide_categories": ["Women"],
+    "dining_guide_categories": [],
+    "tenant_group": "Sony Global Ltd",
+    "last_update": {
+      "workflow_transition": "Create",
+      "actor_group": "VivoCity",
+      "actor_store_name": "",
+      "actor_role": "Marcomm",
+      "actor_name": "Tan Wei Wei",
+      "datetime": "28 Feb 2019, 12:00 AM"
+    }
+  }, {
+    "id": 11,
+    "store_name": "Sony",
+    "unit_number": "02-52",
+    "status": "Live",
+    "trade_categories": ["Electronics", "Furniture"],
+    "floor_categories": ["B2"],
+    "shopping_guide_categories": [],
+    "dining_guide_categories": ["Halal"],
+    "tenant_group": "Sony Global Ltd",
+    "last_update": {
+      "workflow_transition": "Launch",
+      "actor_group": "System",
+      "actor_store_name": "",
+      "actor_role": "",
+      "actor_name": "",
+      "datetime": "28 Feb 2019, 12:00 AM"
+    }
+  }
+]

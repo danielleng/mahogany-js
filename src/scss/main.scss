@@ -1,0 +1,13 @@
+// Base Styles, defaults
+@import '../../node_modules/bootstrap/scss/bootstrap';
+@import './vendor/html5boilerplate';
+
+// Core Mahogany Styles
+@import '../scss/core/fonts';
+@import '../scss/core/typography';
+
+// Core Mahogany Components
+
+// Other Components
+@import './components-other/carousel';
+@import './components-other/home';

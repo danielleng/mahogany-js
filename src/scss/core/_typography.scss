@@ -1,0 +1,90 @@
+$mdc-typography-styles-headline1: (
+  font-family: unquote("Roboto"),
+  font-size: 96
+);
+$mdc-typography-styles-headline2: (
+  font-family: unquote("Roboto"),
+  font-size: 60
+);
+$mdc-typography-styles-headline3: (
+  font-family: unquote("Roboto"),
+  font-size: 48
+);
+$mdc-typography-styles-headline4: (
+  font-family: unquote("Roboto"),
+  font-size: 34
+);
+$mdc-typography-styles-headline5: (
+  font-family: unquote("Roboto"),
+  font-size: 24
+);
+$mdc-typography-styles-headline6: (
+  font-family: unquote("Roboto"),
+  font-size: 20
+);
+$mdc-typography-styles-body1: (
+  font-family: unquote("Roboto"),
+  font-size: 16
+);
+$mdc-typography-styles-body2: (
+  font-family: unquote("Roboto"),
+  font-size: 14
+);
+$mdc-typography-styles-subtitle1: (
+  font-family: unquote("Roboto"),
+  font-size: 16
+);
+$mdc-typography-styles-subtitle2: (
+  font-family: unquote("Roboto"),
+  font-size: 14
+);
+$mdc-typography-styles-button: (
+  font-family: unquote("Roboto"),
+  font-size: 14
+);
+$mdc-typography-styles-overline: (
+  font-family: unquote("Roboto"),
+  font-size: 10
+);
+$mdc-typography-styles-caption: (
+  font-family: unquote("Roboto"),
+  font-size: 12
+);
+
+// Defaults
+h1, h2, h3, h4, h5, h6, p, li, a,
+div, table, thead, tr, th, td {
+  font-family: 'Roboto', Arial, Helvetica,  sans-serif;
+}
+
+h1 {
+  font-size: map-get($mdc-typography-styles-headline1, "font-size") + px;
+}
+
+h2 {
+  font-size: map-get($mdc-typography-styles-headline2, "font-size") + px;
+}
+
+h3 {
+  font-size: map-get($mdc-typography-styles-headline3, "font-size") + px;
+}
+
+h4 {
+  font-size: map-get($mdc-typography-styles-headline4, "font-size") + px;
+}
+
+h5 {
+  font-size: map-get($mdc-typography-styles-headline5, "font-size") + px;
+}
+
+h6 {
+  font-size: map-get($mdc-typography-styles-headline6, "font-size") + px;
+}
+
+p, li, a {
+  font-size: map-get($mdc-typography-styles-body1, "font-size") + px;
+}
+
+div, table, thead, tr, th, td {
+  font-size: map-get($mdc-typography-styles-body2, "font-size") + px;
+}

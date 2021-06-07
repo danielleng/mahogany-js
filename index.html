@@ -3,32 +3,71 @@
 
 <head>
   <meta charset="utf-8">
-  <title>jQuery Clone v0.1</title>
+  <title>Mahogany JS v0.0.1 - Proof of Concept</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="src/scss/main.scss">
   
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
-  <h1 class="hello">Hello world!</h1>
-  
+  <h5 class="hello">Mahogany JS v0.0.1 - Proof of Concept</h5>
+  <hr>
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col-12">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">First</th>
+              <th scope="col">Last</th>
+              <th scope="col">Handle</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td colspan="2">Larry the Bird</td>
+              <td>@twitter</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
   <div class="carousel">
     <button type="button" class="carousel__navLeft">&#8592;</button>
     <div class="images">
-      <img src="img/1.jpg" alt="night" title="night" class="active" />
-      <img src="img/2.jpg" alt="writer" title="writer" />
-      <img src="img/3.jpg" alt="meditate" title="meditate" />
+      <img src="src/img/1.jpg" alt="night" title="night" class="active" />
+      <img src="src/img/2.jpg" alt="writer" title="writer" />
+      <img src="src/img/3.jpg" alt="meditate" title="meditate" />
     </div>
     <button type="button" class="carousel__navRight">&#8594;</button>
   </div>
 
   <!-- scripts -->
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+  <script src="src/js/plugins.js"></script>
+  <script src="src/js/main.js"></script>
 </body>
 
 </html>
